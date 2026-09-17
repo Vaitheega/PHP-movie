@@ -1,0 +1,16 @@
+CREATE DATABASE movies;
+
+USE movies;
+
+CREATE TABLE genres (
+    gid INT AUTO_INCREMENT PRIMARY KEY,
+    mgenre VARCHAR(50) NOT NULL
+);
+
+CREATE TABLE movies (
+    mid INT AUTO_INCREMENT PRIMARY KEY,
+    mname VARCHAR(100) NOT NULL,
+    myear VARCHAR(4) NOT NULL,
+    mgenreid INT NOT NULL,
+    mrating INT NOT NULL
+);

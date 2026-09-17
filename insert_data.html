@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Movie</title>
+</head>
+
+<body>
+
+<h1>Add a Movie</h1>
+
+<form action="insertdata.php" method="POST">
+
+    <label>Movie Name:</label>
+    <input type="text" name="mname">
+    <br><br>
+
+    <label>Year:</label>
+    <input type="text" name="myear">
+    <br><br>
+
+    <label>Genre:</label>
+    <select name="mgenreid">
+        <option value="1">Action/Adventure</option>
+        <option value="2">Comedy</option>
+        <option value="3">Drama</option>
+        <option value="4">Fantasy/Sci-Fi</option>
+    </select>
+    <br><br>
+
+    <label>Rating:</label>
+    <input type="number" name="mrating" min="1" max="5">
+    <br><br>
+
+    <input type="submit" value="Add Movie">
+
+</form>
+
+</body>
+</html>
