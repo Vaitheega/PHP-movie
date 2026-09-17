@@ -4,13 +4,13 @@ Create_table.sql
  What data types are stored in our columns? 
  And which size is the data allowed to be? Which column holds the primary key (and why?) What do you think AUTO_INCREMENT does?
 
- ans - This file creates the movie database and its tables (movies and genres). It defines the columns, data types, and sizes. mid and gid are primary keys because they uniquely identify each row. AUTO_INCREMENT automatically gives each new movie or genre a new ID.
+ Ans - This file creates the movie database and its tables (movies and genres). It defines the columns, data types, and sizes. mid and gid are primary keys because they uniquely identify each row. AUTO_INCREMENT automatically gives each new movie or genre a new ID.
 
  Get_data.php
 
 ● Observe on line 1 and 28 that we need to open and close a .php file. Write down the
 syntax to do so.
-    We use <?php to open/start a PHP file and ?> to close/end the PHP code.
+    Ans- We use <?php to open/start a PHP file and ?> to close/end the PHP code.
 
 ● Observe on line 2-5 that we are creating variables. Write down the syntax to create a
 variable in php.
